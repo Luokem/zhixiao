@@ -1,0 +1,215 @@
+/*!
+ * IE10 viewport hack for Surface/desktop Windows 8 bug
+ * Copyright 2014-2015 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+
+@-ms-viewport     { width: device-width; }
+@-o-viewport      { width: device-width; }
+@viewport         { width: device-width; }
+
+.center-main {
+  margin-top: 80px;
+}
+
+.title {
+  width: 94%;
+  margin: 0 auto;
+  height: 25px;
+}
+
+.show {
+  position: relative;
+  border-top: 1px dashed #ddd;
+  margin: 10px 0 20px;
+  padding-top: 15px;
+
+
+}
+.title .txt-left {
+  text-align: right;
+  font-size: 10px;
+}
+
+span {
+  font-size: 10px;
+}
+.center-main .row  a, .container a {
+  color: #909090 !important;
+  cursor: pointer;
+}
+.show .answer {
+  position: absolute;
+  right: 0;
+  bottom: -20px;
+}
+
+/*
+  shange 设置栅格padding为0
+*/
+.shange   {
+  padding-right: 0;
+}
+
+@media screen and (min-width: 768px){
+  .show  {
+      min-height: 90px;
+  }
+
+}
+@media screen and (max-width: 768px){
+.show  {
+    min-height: 90px;
+    postion: relative;
+}
+.show .title .tip {
+  padding-bottom: 0px;
+}
+.show .question {
+  font-size: 9px;
+}
+.show .move {
+  position: absolute;
+  right:0;
+  top: 0;
+  padding: 0;
+  font-size: 10px;
+}
+
+
+}
+/*== center-main ==*/
+
+.center-main   a  {
+  display: inline-block;
+  color: #909090;
+  font-size: 14px;
+}
+
+.center-main .row a:hover {
+  color: #007fff !important;
+}
+
+.center-main .quxiao1 a:first-child {
+  margin-right: 20px;
+}
+.center-main .quxiao1 a {
+  margin-right: 10px;
+}
+
+.center-main .container .quxiao1, .center-main .container .quxiao2 {
+  margin-right: 0;
+}
+.center-man .container .quxiao2 a {
+  margin-right: 0;
+}
+
+.label-fenlei {
+float: right;
+}
+.label-fenlei a {
+  margin-right: 0;
+}
+
+/*== 评论区 ==*/
+.hot-pinglun {
+  padding: 0 15px 1px;
+  margin: 10px 0 8px;
+}
+
+.hot-pinglun .col-md-3 a {
+  padding: 0 10px;
+}
+
+.hot-pinglun .col-md-3 span {
+  color: #ddd;
+}
+
+.hot-pinglun .col-md-4  {
+  text-align: right;
+  position: relative;
+}
+
+.hot-pinglun .col-md-3 a,
+.hot-pinglun .col-xs-12 a,
+.hot-pinglun .col-md-4 a {
+  font-size: 14px;
+}
+
+.hot-pinglun .col-md-4 span {
+  display: inline-block;
+  width: 2px;
+  height: 2px;
+  border-radius: 50%;
+  background-color: #2b445d;
+  opacity: .5;
+  margin: 0 5px 3px;
+
+}
+
+/*== show ==*/
+.change-panel {
+     padding: 0;
+}
+
+.show {
+  font-family: 'Arimo', sans-serif;
+  margin-top: 0;
+}
+
+.row-panel {
+  min-height: 600px;
+}
+
+
+.label-danger {
+    background-color: rgb(208, 228, 197);
+}
+
+.show .dianzan span {
+  display: inline-block;
+  margin-bottom: 3px;
+}
+
+.show .dianzan .label {
+  color: black;
+  font-size: 8px;
+  font-weight: normal;
+}
+
+.show .question, .show .tip {
+  font-size: 14px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  display: inline-block;
+  max-height: 100px;
+}
+
+.show .question {
+  width: 100%;
+  max-width: 400px;
+  color: rgb(113, 113, 113);
+  letter-spacing: 1px;
+}
+
+.show .tip {
+  width: 100%;
+  max-width: 350px;
+  font-size: 13px;
+  letter-spacing: 2px;
+  padding-bottom: 5px;
+}
+
+.show .user {
+display: inline-block;
+padding-right: 20px;
+color: red;
+}
+
+.show .time {
+  padding: 10px;
+}
+.show .user_label {
+  color: rgb(209, 209, 209);
+}
